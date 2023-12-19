@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <ul>
+                <li>
+                    <a href="index.html" class="logo" ><span class="pink">Сайт </span><i>визитки</i></a>
+                </li>
+                <li>
+                    <a href="uslugi.html" class="tot">услуги</a>
+                </li>
+                <li>
+                    <a href="onas.html" class="tot">о нас</a>
+                </li>
+                <li>
+                    <a href="cliant.html" class="tot">клиенты</a>
+                </li>
+                <li>
+                    <a href="contact.html" class="tot">контакты</a>
+                </li>
+                <li>
+                    <a href="form.html" class="tot">написать нам</a>
+                </li>
+            </ul>
+        </header>
+<form id="contact-form">
+    <div class="form_item">
+        <label for="topic">Тема</label><br>
+        <select name="topic" id="topic" required>
+         <option value="">Выберите услугу</option>
+         <option value="1">Заказать услугу</option>
+         <option value="2">Оставиьт отзыв/замечание</option>
+         <option value="3">Предложить сотруднечиство</option>
+         <option value="4">Другое</option>
+        </select>
+    </div>
+    <div class="form_item">
+        <label for="name1">Имя</label><br>
+        <input name="name1" id="name1" type="text" placeholder="Ваше ФИО" required>
+    </div>
+    <div class="form_item">
+        <label for="name2">E-mail</label><br>
+        <input name="name2" id="name2" type="email" placeholder="mech@gmail.com" required>
+    </div>
+    <div class="form_item">
+        <label for="name3">Текст сообщения</label><br>
+        <input name="name3" id="name3" type="text" placeholder="Что вы хотите нам сказать">
+    </div>
+    <div class="form_name">
+        <input class="contact-form" type="submit">
+    </div>
+</form>
+    </div>
+    <footer>
+       <p class="footer_block"><a href="/form.html" id="kok">Написать нам &#9650;</a></p>
+       <p class="footer_block">&copy; Новая компания</p>
+       <div class="footer_icons">
+       <img src="img/mailru.png" alt="mailru" class="footer_img">
+       <img src="img/vk.png" alt="vk" class="footer_img">
+       <img src="img/ok.png" alt="ok" class="footer_img">
+       </div>
+    </footer>
+</body>
+</html>

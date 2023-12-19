@@ -1,0 +1,314 @@
+* {
+    margin:0;
+    padding: 0;
+}
+html,body {
+  height: 100%;
+}
+header, main, footer 
+{
+    width: 1040px;
+    margin: 0 auto;
+}
+#wrapper{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+     width: 100%;
+}
+header{
+    height:120px;   
+    text-transform: uppercase;
+}
+main{
+    padding-bottom: 100px;
+}
+footer{   
+    margin: -100px auto 0;
+    position: relative;
+    height: 100px;
+}
+body
+{
+    background: linear-gradient(90deg,#380577, rgb(66, 106, 179));
+    color: white;
+}
+.main_img-float
+{
+    width: 550px;
+    margin-right: 40px;
+    float: left;
+    border: #f76de0;
+    border-radius: 10px;
+}
+#panorama 
+{
+    width: 100%;
+    height: 150px;
+    background: url(../img/2.jpg) no-repeat center 70%;
+    background-size: cover; /*масштабирование фона*/
+}
+.services_img
+{
+    width: 240px;
+    border: #f76de0;
+    border-radius: 10px;
+}
+.services_item
+{
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 240px;
+    float: left;
+}
+.services
+{
+padding: 35px;
+border: 5px;
+}
+.clearfix::after 
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+.h1--invisible
+{
+ visibility: hidden
+}
+.pas
+{
+    text-transform: uppercase;
+    text-align: center;
+    color: #f76de0;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+footer
+{   
+    width: 1040px;
+    margin-top: 200px;
+}
+.text
+{
+    text-align: left;
+    margin: 0 auto;
+    width: 620px;
+}
+header
+{
+       text-align: left;
+}
+#pop
+{
+    color: white;
+}
+#tetres
+{
+    margin-top: 200px;
+}
+.first
+{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+.second
+{
+    text-align: center;
+    color: #f76de0;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.fird
+{
+    text-align: center;
+}
+.logo
+{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    line-height: 100px;
+    font-size: 24px;
+    margin-right: 50px;
+}
+.pink
+{
+    color: #f76de0;
+}
+.footer_block
+{
+    display: inline-block;
+    width: 335px;
+    text-transform: uppercase;
+}
+.footer_icons
+{
+    display: inline-block;
+    width: 335px;
+    text-align: right;
+}
+.footer_img
+{
+    width: 50px;
+    margin-left: 10px;
+}
+.foto
+{
+    border: #f76de0;
+    border-radius: 10px;
+}
+.h1
+{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.pop
+{
+    text-align: center;
+    text-transform: uppercase;
+}
+#lol
+{
+    color: pink;
+}
+table
+{
+    border: 5px solid #f60ad5;
+    border-collapse: collapse;
+    margin: 0px 150px 0px 150px;
+}
+th, td
+{
+    border: 2px solid white;
+}
+.price th:first-child
+{
+    width: 10%;
+}
+.price th:nth-child(2), .price th:last-child
+{
+    width: 25%;
+    height: 40px;
+}
+.kiled
+{
+    text-align: center;
+}
+li
+{
+    display: inline;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.tot
+{
+    color: white;
+    text-decoration: none;
+}
+#com
+{
+    color: #f76de0;
+}
+.pol
+{
+    text-decoration: underline;
+}
+input ::placeholder
+{
+    color: gray;
+}
+input :required
+{
+    border-color: #ff8630;
+    background-color: #ff8630;
+}
+input 
+{
+    height: 10px;
+    width: 250px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+select :required
+{
+    border-color: #ff8630;
+}
+select 
+{
+    height: 35px;
+    width: 200px;
+    padding: 5px; 
+    margin-bottom: 10px;
+}
+label
+{
+    font-size: 23px;
+}
+#contact-form input[type="submit"] 
+{
+    height: 40px;
+    width: 150px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: black solid 1px;
+    background-color: #eddfff;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.contact-form input[type="submit"]:hover
+{
+    height: 40px;
+    width: 150px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: #949494;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.yuy
+{
+    width: 210px;
+    border: #f76de0;
+    border-radius: 100px;
+}
+#kok
+{
+    text-decoration: none;
+    color: white;
+}
+#name1 
+{
+    width: 300px;
+    border-radius: 10px;
+}
+#name2 
+{
+    width: 300px;
+    border-radius: 10px;
+}
+#name3
+{
+    width: 300px;
+    border-radius: 10px;
+}
+#topic 
+{
+    width: 322px;
+    text-align: center;
+    border-radius: 10px;
+}
+#contact-form 
+{
+    text-align: center;
+    margin: 10px;
+    padding: 100px;
+    margin-bottom: 10px;
+}
